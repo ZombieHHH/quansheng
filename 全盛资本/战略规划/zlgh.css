@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	background-image: url(image/1.png);
+	width: 100%;
+	height: 202px;
+	min-width: 1920px;
+	position: relative;
+}
+.head-bottom{
+	background-color: #000;
+	width: 100%;
+	height:60px;
+	position: absolute;
+	bottom: 0px;
+	min-width: 1920px;
+	opacity: 0.2;
+}
+.head-top{
+	width: 1358px;
+	height: 142px;
+	margin: 0 auto;
+	position: relative;
+}
+.head .head-top i{
+	display: inline-block;
+	background-image: url(image/111.png);
+	background-position: -550px -258px;
+	width: 205px;
+	height: 55px;
+	margin-top: 51px;
+	margin-left: 0px;
+}
+.head-top ul{
+	display: inline-block;
+	height: 25px;
+	float: right;
+	list-style: none;
+	border-bottom: 3px solid #706967;
+	margin-top: 70px;
+	margin-right: 40px;
+}
+.head-top li{
+	display: inline-block;
+	float: right;
+	margin: 0 auto;
+	width: 100px;
+	height: 25px;
+}
+.head-top li a{
+	text-decoration: none;
+	text-align:center; 
+	padding-left: 20px;
+	font-family: "微软雅黑";
+	margin-bottom: 4px;
+	color: #463d3b;
+}
+.head-top li:hover{
+	border-bottom: 3px solid #c90714;
+}
+.head-top .qsdt{
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	left: 44px;
+	bottom: -37px;
+	font-family: "微软雅黑";
+	z-index: 2;
+}
+.body{
+	width: 1920px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 25px;
+}
+.body1{
+	width: 1362px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.body1-1{
+	width: 1362px;
+	height: 265px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	background-color: #f9f9f9;
+}
+.li{
+	position: absolute;
+	width: 300px;
+	right: 70px;
+	height: 40px;
+	top: 20px;
+}
+.li li{
+	float: right;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+.youxian{
+	border-left: 3px solid #e60012;
+	font-size: 25px;
+	padding-left: 10px;
+}
+.wuxian{
+	font-size: 14px;
+	margin-right: 10px;
+	padding-top: 15px;
+	color: #8d8b8b;
+}
+.body1-1 p{
+	width: 741px;
+	margin-left: 519px;
+	font-size: 14px;
+	color: #b8b8b8;
+	font-family: "微软雅黑";
+}
+.body1-1 .p1{
+	margin-top: 90px;
+	margin-bottom: 25px;
+}
+.body1-2{
+	width: 1362px;
+	height:446px;
+	background-color: #fff;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.li2{
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	left: 0;
+	top: 100px;
+}
+.li2 li{
+	float: left;
+	list-style: none;
+	font-family: "微软雅黑";	
+}
+.yes{
+	border-left: 3px solid #e60012;
+	font-size: 25px;
+	padding-left: 10px;
+}
+.no{
+	font-size: 14px;
+	margin-left: 10px;
+	padding-top: 15px;
+	color: #8d8b8b;
+}
+.body1-2 p{
+	width: 707px;
+	margin-left: 95px;
+	font-size: 14px;
+	color: #b8b8b8;
+	font-family: "微软雅黑";
+}
+.p2{
+	margin-top: 187px;
+	margin-bottom: 25px;
+}
+.body1-3{
+	width: 1362px;
+	height: 265px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	background-color: #f9f9f9;
+}
+.body1-3 p{
+	width: 741px;
+	margin-left: 519px;
+	font-size: 14px;
+	color: #b8b8b8;
+	font-family: "微软雅黑";
+}
+.body1-3 .p1{
+	margin-top: 90px;
+	margin-bottom: 25px;
+}
+.body1-4{
+	width: 1362px;
+	height:446px;
+	background-color: #fff;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.body1-4 p{
+	width: 707px;
+	margin-left: 95px;
+	font-size: 14px;
+	color: #b8b8b8;
+	font-family: "微软雅黑";
+}
+.ending{
+	width: 100%;
+	min-width: 1920px;	
+	float: left;
+	height: 100px;
+	position: relative;
+	border-top: 1px solid #dad7d7;
+	min-height: 180px;
+}
+.ending .ending-center{
+	width: 1288px;
+	margin: 0 auto;
+	height: 50px;
+}
+.box8-left i{
+	display: inline-block;
+	background-image: url(image/111.png);
+	background-position: -548px -257px;
+	width: 202px;
+	height: 52px;
+}
+.box8-left li{
+	list-style: none;
+	border-right: 3px #d0000e solid;
+	width: 240px;
+	margin-left: 28px;
+	margin-top: 58px;
+}
+.box8-left{
+	float: left;
+	width: 40%;
+	overflow: hidden;
+}
+.box8-right{
+	float: right;
+}
+.box8-right .box8-right-over i{
+	display: inline-block;
+	background-image: url(image/111.png);
+	background-position: -552px -1251px;
+	width: 77px;
+	height: 81px;
+	float: right;
+}
+.box8-right .box8-right-over a{
+	text-decoration: none;
+}
+.box8-right .box8-right-over{
+	width: 600px;
+}
+.box8-right .box8-right-over span{
+	float: right;
+	color: #979798;
+	font-family: "微软雅黑";
+	margin-left: 13px;
+}
+.box8-right .box8-right-over li{
+	list-style: none;
+	float: right;
+	color: #979798;
+	font-family: "微软雅黑";
+}
+.box8-right .box8-right-over ul{
+	padding-top: 7px;
+}
+.box8-right .box8-right-over{
+	margin-right: 40px;
+	margin-top: 50px;
+}
